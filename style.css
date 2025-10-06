@@ -71,11 +71,11 @@ input{
 @media (max-width:750px){
    .container{
     height: 60vh;
-    width: 60vw;
+    width: 80vw;
    
    }
    input{
-    width: 60vw;
+    width: 80vw;
     top: 12vmin;
     height: auto;
    }
