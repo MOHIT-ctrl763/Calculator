@@ -67,16 +67,44 @@ input{
    font-size: 50px;
    color: black;
    margin-bottom: 5px;
+   background-color: white;
 }
 @media (max-width:750px){
    .container{
     height: 60vh;
-    width: 90vw;
+    width: 60vw;
    
    }
    input{
-    width: 90vw;
+    width: 60vw;
     top: 12vmin;
     height: auto;
    }
+}
+@media((min-width:751px)and (max-width:1000px)){
+    .container{
+        width: 60vw;
+        height: 45vh;
+    }
+    input{
+    width: 60vw;
+    top: 12vmin;
+    height: auto;
+   }
+}
+@media((min-width:1001px) and (max-width:1260px)){
+    .container{
+    height: 70vh;
+    width: 35vw;
+    }
+    input{
+        width: 35vw;
+        height: auto;
+        margin-bottom: 50px;
+    }
+}
+@media((min-width:1261px)and (max-width:1618px)){
+    input{
+        margin-bottom: 35px;
+    }
 }
