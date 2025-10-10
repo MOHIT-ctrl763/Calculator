@@ -69,7 +69,18 @@ input{
    margin-bottom: 5px;
    background-color: white;
 }
-@media (max-width:750px){
+@media (max-width:450px){
+    .container{
+        width: 90vw;
+        height: 60vh;
+    }
+    input{
+        width: 90vw;
+        height: auto;
+        margin-bottom: 40px;
+    }
+}
+@media((min-width:450px)and (max-width:750px)){
    .container{
     height: 60vh;
     width: 60vw;
