@@ -11,8 +11,8 @@ body{
 }
 .container{
     background-color: #121212;
-    height: 60vh;
-    width: 20vw;
+    height: 650px;
+    width: 350px;
     margin: auto;
     margin-top: 10%;
     /* background-color: aqua; */
@@ -22,9 +22,10 @@ body{
     align-items: center;
     gap: 20px;
     border: 1px solid black;
-    box-shadow: 22px -13px 55px 5px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    /* box-shadow: 22px -13px 55px 5px rgba(0,0,0,0.75);
 -webkit-box-shadow: 22px -13px 55px 5px rgba(0,0,0,0.75);
--moz-box-shadow: 22px -13px 55px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 22px -13px 55px 5px rgba(0,0,0,0.75); */
 }
 .buttons{
     font-size: 30px;
@@ -60,16 +61,17 @@ body{
     background-color: #4CAF50;
 }
 input{
-   width: 20vw;
-   height: 8vmin;
-   position: relative;
-   top: 20vmin;
+   width: 350px;
+   height: 50px;
+   /* position: relative;
+   top: 200px; */
    font-size: 50px;
-   color: black;
-   margin-bottom: 5px;
-   background-color: white;
+   color: white;
+   /* margin-bottom: 5px; */
+   /* background-color: black; */
+   background-color: #121212;
 }
-@media (max-width:450px){
+/* @media (max-width:450px){
     .container{
         width: 90vw;
         height: 60vh;
@@ -118,4 +120,4 @@ input{
     input{
         margin-bottom: 35px;
     }
-}
+} */
